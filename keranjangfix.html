@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Keranjang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="keranjangfix.css"/>
+</head>
+<body>  
+<!-- header !-->
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1>SIMPLY OUTFIT</h1>
+            </div>
+             <input class="box"type="text" name="pencarian" placeholder="Hurley">
+             <a href="pencarian.html"><input class="tombol" type="image" name="cari" src="img/search.png">
+                    </a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html" >About us</a></li>
+                    <li><a href="store.html">Store</a>
+                    </li>   
+                    <li><a href="kategori.html">Categories</a></li>
+                    <li class="active, dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">
+                        Me</a>
+                        <div class="dropdown-content">
+                          <a href="profilefix.html">Profile</a>
+                          <a href="keranjangfix.html">My Cart</a>
+                          <a href="chat.html">Chat</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- keranjang -->
+  <section id="keranjang">
+  <div class="container">
+    <div class="product">
+      <div class="allproduct">
+        <input type="checkbox" name="allproduct" value="allproduct"> <b>Pilih semua produk</b>
+      </div>  
+      <hr>
+      <div class="item">
+        <input type="checkbox" name="item1">
+        <img src="img/hur0.jpg" width="100px" height="auto">
+        <p class="keterangan-item">
+          <b>Baju Polos Hitam</b> <br>
+          Ukuran L <br>
+          <strong>Rp 45.000</strong>
+        </p>
+        <i class="far fa-heart"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fa fa-trash" aria-hidden="true"></i> <br> <hr>
+        <a href="#" id="note"><small>Tulis catatan untuk pengiriman</small></a>
+      </div>
+    </div>
+
+    <div class="price">
+      <b>Ringkasan Belanja</b>
+      <hr>
+      <div>
+        <p>Total Harga</p>
+        <p class="total-price"><b>Rp 45.000</b></p>
+      </div>
+      <hr>
+      <button class="btn" > Beli </button>
+    </div>
+  </div>
+  </section>
+
+<!-- isi !-->
+   <section id="collection">
+        <div class="container">
+            <div class="title-top">
+                <h3>For You :</h3>
+            </div>
+        </div>
+
+    <script type="text/javascript" src="swiper.min.js"></script>
+     <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="imgBx">
+                    <img src="./img/man.png">
+              </div>
+              <div class="details">
+                  <h3>Dope tshirt<br><span>149 IDR</span></h3>
+              </div>
+          </div>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+   </section>
+
+
+
+
+<!-- Footer -->
+    <section id="want">
+        <div class="container">
+            <div class="title-want">
+                    <h1>Get Yours</h1>
+                    <p>NOW</p>
+                </div>
+            <div class="wm">
+                <h1>www.simplyoutfit.com</h1>
+                <p>simply@outfit.com</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

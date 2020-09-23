@@ -1,0 +1,414 @@
+				
+
+				body {
+					background-color: #eeeeee;
+					font :15px Arial, Helvetica, sans-serif;
+  					margin: 0;
+				}
+
+				/*accesories*/
+				.border1{
+				border-bottom: 2px solid;
+				margin:10px 20px 10px 20px;
+				border-color: #eeeeee;
+				
+				}
+
+				.border2{
+				border-bottom: 1px solid;
+				margin: 0px 10px 0px 10px;
+				border-color: #eeeeee;
+				}
+
+
+
+
+				/* HEADER */
+
+header .container{
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: #00FFFF 3px solid;
+}
+
+header a{
+  color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  
+}
+
+header li{
+    float: left;
+    display: block;
+    padding: 10px 25px 25px 15px;
+}
+
+header #logo{
+    float: left;
+}
+
+header #logo h1{
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  border-bottom: #00FFFF 1px solid; 
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.active {
+  color: #00FFFF;
+}
+
+.box {
+  width: 220px;
+  height: 11px;
+  padding-top: 12px;
+  margin-left: 40px;
+  
+
+}
+
+header .tombol {
+  height: 26px;
+  margin-top: 10px;
+margin-left: 10px;
+}
+
+
+				/*Grid*/
+				.side { grid-area: side; }
+				.conten { grid-area: conten; }
+				.right { grid-area: right; }
+				.footer { grid-area: footer; }
+
+				.grid-container {
+				  display: grid;
+				  grid-template-areas:
+				    'side conten conten conten right right'
+				    'side conten conten conten right right'
+				    'side conten conten conten right right'
+				    'footer footer footer footer footer footer';
+				  grid-gap: 0px;
+				  background-color: #ffffff;
+				  padding: 0px;  
+				}
+
+				.grid-container > div {
+				  
+				  background-color: rgba(255, 255, 255, 0.8);
+				  text-align: left; 
+				  width: :10px;
+				}
+
+				.side {
+					border-bottom: 2px;
+					padding: 25px;
+				}
+				.conten{
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				margin: 10px 0px 0px 0px;
+				}
+				.right{
+					padding: 30px 10px 0px 0px ;
+					margin: 50px 50px 50px 25px;
+					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				}
+				.footer{
+					padding-bottom: : 350px;
+					margin-bottom: 100px;
+					border-bottom: 2px;
+				}
+
+				/*CONTEN*/
+
+				.sub1{
+					padding-right: 0px;
+				}
+
+				.judulhal{
+					font-weight:bold;
+					font-size: 15px;
+					margin-bottom: 0px;
+					padding: 15px 50px 20px 20px;
+					
+				}
+
+				.judulsub {
+					margin-bottom: 0px;
+					font-size: 12px;
+					padding: 0px 50px 0px 20px;
+					font-weight: bold;
+				}
+
+				.alamatchk {
+				font-size: 10px;
+			    padding: 10px 10px 15px 20px;
+			    margin :0px;
+			    color: #064579;
+			    background-color: white;
+			    font-weight: solid;
+
+
+			    }
+
+			    /*Tombol piihan pengisian alamat*/
+
+			    .tab {
+	 			overflow: hidden;
+	 			padding-right: 10px;
+	  			background-color: #f1f1f1;
+	  			margin:0px 20px 0px 20px;
+
+	}	
+
+				/* Style the buttons inside the tab */
+				.tab button {
+
+				  background-color: inherit;
+				  border: none;
+				  outline: none;
+				  cursor: pointer;
+				  padding: 14px 16px;
+				  transition: 0.4s;
+				  font-size: 12px;
+				}
+
+				/* Change background color of buttons on hover */
+				.tab button:hover {
+				  background-color: #ddd;
+				}
+
+				/* Create an active/current tablink class */
+				.tab button.active {
+				  background-color: #1b1b1b;
+				  border-bottom: #424242 1px solid;
+				}
+
+				/* Style the tab content */
+				.tabcontent {
+				  background-color: #1b1b1b;
+				  color: white; 
+				  display: none;
+				  border: 0px solid #ccc;
+				  border-top: none;
+			  	  padding: 10px 12px;
+			  	  margin:0px 20px 0px 20px;
+				}
+
+				.alamatchk1 {
+				font-size: 10px;
+			    padding: 10px 10px 15px 20px;
+			    margin :0px;
+			    color: white;
+			    background-color: #1b1b1b;
+			    font-weight: solid;
+			    }
+
+
+			    /*Keterangan item yang dibeli*/
+
+			    .pesanan {
+
+			    	padding: 0px 10px 10px 20px;
+			    	font-size: 10px;
+			    	outline: none;
+			    }
+
+			    #gradepsn{
+			    	color: #00FFFF;
+			    	font-size: 12px;
+			    	padding: 0px 15px 3px 15px;
+			    	background-color: #1b1b1b;
+			    	border: #1b1b1b 1px solid;
+			    	border-radius: 50px;
+			    	margin: 5px 680px 10px 10px;
+			    }
+
+			    #imgpsn {
+
+			    	float: left;
+
+			    }
+
+			    #namapsn {
+			    	position: static;
+			    	margin-left: 70px;
+			    	padding: 5px 10px 5px 50px;
+					font-size: 13px;
+					font-weight: bold;
+
+				}
+
+				.sbtotal{
+
+				}
+
+				#ttl {
+					color: red;
+					font-weight: bold;
+					font-size: 12px;
+				}
+
+
+				.sbtotal #subttl {
+					float: left;
+					margin-bottom: 0px;
+					font-size: 12px;
+					padding: 0px 0px 0px 20px;
+					font-weight: bold;
+
+				}
+				.sbtotal #ttl{
+					padding: 0px 0px 10px 680px;
+				}
+
+				#ttlpsn{
+					color: red;
+					padding: 0px 0px 0px 120px;
+					font-weight: bold;
+					font-size: 12px;
+				}
+
+				#jmlbrg {
+					padding: 5px 0px 30px 120px;
+					font-weight: solid;
+					font-size: 12px;
+
+				}
+
+
+				/*Tombol Beli*/
+
+
+				.tabharga {
+					
+					padding: 1px 1px 1px 1px;
+				}
+
+				.tabharga #judulharga {
+					float :left;
+					
+					font-size: 12px;
+					padding: 0px 0px 0px 20px;
+					font-weight: solid;
+				}
+
+
+				.tabharga #totalharga {
+					padding: 0px 0px 0px 200px;
+					font-weight: bold;
+					font-size: 12px;
+				}
+
+				.tombolbayar{
+				}
+
+				.bayar button {
+					color: white;
+					font-weight: bold;
+					background-color: black;
+					margin: 10px 80px;
+					padding: 10px 50px;
+					font-size: 12px;
+
+				}
+
+				.bayar button:hover {
+				  background-color: #ddd;
+				}
+
+
+
+ /* footer */
+#want{
+    height: 170px;
+    margin-top: 20px;
+    background-color: black;
+    
+}
+
+.title-want {
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  margin: auto;
+}
+
+.title-want h1{
+  font-family: courier new, monospace;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.title-want p{
+  font-family: courier new, monospace;
+  margin-top: auto;
+  letter-spacing: 15px;
+}
+
+.wm {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.wm h1 {
+  padding-top: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.wm p {
+  margin-top: auto;
+  letter-spacing: 1px;
+}

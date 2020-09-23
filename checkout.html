@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+		<head>
+	
+			<link rel="stylesheet" type="text/css" href="checkout.css"/>
+			
+		<body>
+			<header>
+        <div class="container">
+            <div id="logo">
+                <h1>SIMPLY OUTFIT</h1>
+            </div>
+              <input class="box"type="text" name="pencarian">
+              <a href="pencarian.html"><input class="tombol" type="image" name="cari" src="img/search.png">
+                    </a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html" >About us</a></li>
+                    <li><a class="active" href="store.html">Store</a>
+                    </li>   
+                    <li><a href="kategori.html">Categories</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">
+                        Me</a>
+                        <div class="dropdown-content">
+                          <a href="profilefix.html">Profile</a>
+                          <a href="keranjangfix.html">My Cart</a>
+                          <a href="chat.html">Chat</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+			<div class="grid-container">
+				<div class="side">
+				  	</div>
+				  	<div class="conten">
+
+				  		<div class="sub1">
+
+				  			<div class="judulhal">
+				  				Checkout
+				  			</div>
+				  			<div class="judulsub">
+				  				Alamat
+				  			</div>
+				  			<div class="border1"></div>
+							<div class="alamatchk">
+									Wikiakai (Kantor)<br> 
+									+628114856262<br>
+									Jl.Teratai No.02 Ringinsari , Maguwoharjo , Depok , Sleman<br>
+									Depok, Kab. Sleman, 55281<br>
+							</div>
+
+
+							<div class="alamatktg">
+									<div class="tab">
+										  <button class="tablinks" onclick="openBtn(event, 'gunakan')">Gunakan Alamat lain</button>
+										  <button class="tablinks" onclick="openBtn(event, 'pilih')">Pilih Alamat </button>
+										  <button class="tablinks" onclick="openBtn(event, 'pisah')">Kirim ke Beberapa Alamat</button>
+									</div>
+
+									<div id="gunakan" class="tabcontent">
+
+										<div class="border2"></div>
+
+										<div class="alamatchk1">
+											Agus Jaya (Rumah)<br> 
+										    +628114856262<br>
+										    Jl.Teratai No.02 Ringinsari , Maguwoharjo , Depok , Sleman<br>
+										    Depok, Kab. Sleman, 55281<br>
+									    </div>
+
+									    <div class="border2"></div>
+
+									</div>
+
+									<div id="pilih" class="tabcontent">
+
+										<div class="border2"></div>
+
+
+										<div class="alamatchk1">
+											Ageng Ari (kantor)<br> 
+										    +628114856262<br>
+										    Jl.Teratai No.02 Ringinsari , Maguwoharjo , Depok , Sleman<br>
+										    Depok, Kab. Sleman, 55281<br>
+									    </div>
+
+									    <div class="border2"></div>
+
+									    <div class="alamatchk1">
+											Rahmat Abdy (Rumah)<br> 
+											+628114856262<br>
+											Jl.Teratai No.02 Ringinsari , Maguwoharjo , Depok , Sleman<br>
+											Depok, Kab. Sleman, 55281<br>
+										</div>
+
+										<div class="border2"></div>
+
+									</div>
+
+									<div id="pisah" class="tabcontent">
+
+										<div class="border2"></div>
+										
+										<div class="alamatchk1">
+											Diovaldi Rumah Utama<br> 
+											+628114856262<br>
+											Jl.Teratai No.02 Ringinsari , Maguwoharjo , Depok , Sleman<br>
+											Depok, Kab. Sleman, 55281<br>
+										</div>
+
+										<div class="border2"></div>
+
+										<div class="alamatchk1">
+											Diovaldi Rumah Utama<br> 
+											+628114856262<br>
+											Jl.Teratai No.02 Ringinsari , Maguwoharjo , Depok , Sleman<br>
+											Depok, Kab. Sleman, 55281<br>
+										</div>
+
+										<div class="border2"></div>
+
+									</div>
+
+									<div class="border1"></div>
+
+									<script>
+									function openBtn(evt, btnName) {
+									  var i, tabcontent, tablinks;
+									  tabcontent = document.getElementsByClassName("tabcontent");
+									  for (i = 0; i < tabcontent.length; i++) {
+									    tabcontent[i].style.display = "none";
+									  }
+									  tablinks = document.getElementsByClassName("tablinks");
+									  for (i = 0; i < tablinks.length; i++) {
+									    tablinks[i].className = tablinks[i].className.replace(" active", "");
+									  }
+									  document.getElementById(btnName).style.display = "block";
+									  evt.currentTarget.className += " active";
+									}
+									</script>
+
+							</div>
+
+
+						</div>
+
+
+						<div class="pesanan">
+
+							<div id="gradepsn">
+								Premium	
+							</div>
+
+							<div id="imgpsn">
+								<img src="img/hur0.jpg" alt="gambar.pesanan" width="100px" height="100px">
+							</div>
+
+							<div id="namapsn">
+								Hurley Hvy Sundown T-Shirt Pria <br> 
+								Neptune Green
+							</div>
+
+							<div id="ttlpsn">
+								Rp.250.000
+							</div>
+
+							<div id ="jmlbrg">
+								1 Barang (500gr)
+							</div>
+
+							<div class="border1"></div>
+								
+							<div class="sbtotal">
+
+								<div id="subttl">
+									Sub Total
+								</div>
+
+								<div id="ttl">
+									Rp.250.000
+								</div>
+								
+							</div>
+
+						</div>
+
+				  	</div>
+
+
+				 	<div class="right">
+
+				 		<div class="judulsub">
+				 			Ringkasan Belanja
+				 		</div>
+
+				 		<div class="border1"></div>
+
+				 		<div class="tabharga">
+
+						 		<div id="judulharga">
+						 			Total Harga
+						 		</div>
+
+						 		<div id="totalharga">
+						 			Rp.250.000
+						 		</div>
+
+						 </div>
+
+						 <div class="border1"></div>
+
+
+						 <div class="bayar">
+						 <button id="bayar1" onclick="">Bayar</button>
+						 </div>
+
+				 	</div>
+
+				 	<div class="footer">
+				 	</div>
+
+			</div>
+<section id="want">
+        <div class="container">
+            <div class="title-want">
+                    <h1>Get Yours</h1>
+                    <p>NOW</p>
+                </div>
+            <div class="wm">
+                <h1>www.simplyoutfit.com</h1>
+                <p>simply@outfit.com</p>
+            </div>
+        </div>
+    </section>
+		</body>
+</html>

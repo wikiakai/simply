@@ -1,0 +1,264 @@
+body{
+  background-color: #f4f4f4;
+  font :15px Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+/* HEADER */
+
+header .container{
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: #00FFFF 3px solid;
+}
+
+header a{
+  color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  
+}
+
+header li{
+    float: left;
+    display: block;
+    padding: 10px 25px 25px 15px;
+}
+
+header #logo{
+    float: left;
+}
+
+header #logo h1{
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  border-bottom: #00FFFF 1px solid; 
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.active {
+  color: #00FFFF;
+}
+
+.box {
+  width: 220px;
+  height: 11px;
+  padding-top: 12px;
+  margin-left: 40px;
+  
+
+}
+
+header .tombol {
+  height: 26px;
+  margin-top: 10px;
+margin-left: 10px;
+}
+
+
+
+/* KERANJANG */
+
+#keranjang .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background: transparent /*rgba(0, 0, 0, 0.39)*/;
+  padding: 10px;
+}
+
+#keranjang .container > div {
+  background-color: /*transparent*/ rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px;
+  font-size: 14px;
+  color: black;
+}
+
+.keterangan-item {
+  float: right;
+}
+
+#note {
+  text-decoration: none;
+  color: #00FFFF;
+}
+
+.product {
+  grid-area: 1 / 1 / span 1 / span 4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price {
+  grid-area: 1 / 5 / span 1 / span 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.price b {
+  font-size: 20px;
+}
+
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  border: 2px white solid;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+    text-align: center;
+    float: right;
+}
+
+button:hover{
+    background-color: #00FFFF;
+    opacity: 1;
+    border: none;
+    color: #000;
+}
+
+/* isi */
+
+#collection {
+  height: auto;
+  margin-top: 10px;
+}
+
+.title-collection h1{
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  padding-top: 20px; 
+  border-bottom: #00FFFF 2px solid;
+  width: 20%;
+}
+
+.title-top h3{
+  padding-left: 165px;
+  font-size: 25px;
+}
+
+
+.imgBx img {
+  width: 350px;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+  .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  background: #fff;
+}
+
+ /* footer */
+#want{
+    height: 170px;
+    margin-top: 20px;
+    background-color: black;
+    
+}
+
+.title-want {
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  margin: auto; 
+}
+
+.title-want h1{
+  font-family: courier new, monospace;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.title-want p{
+  font-family: courier new, monospace;
+  margin-top: auto;
+  letter-spacing: 15px;
+}
+
+.wm {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.wm h1 {
+  padding-top: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.wm p {
+  margin-top: auto;
+  letter-spacing: 1px;
+}
